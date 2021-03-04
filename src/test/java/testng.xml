@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regresion Casos de Prueba">
+    <test name="Regresion Funcionalidad 1,2 y N">
+        <classes>
+            <class name="testSuite.CasosDePruebaFuncionalidad1"></class>
+            <class name="testSuite.CasosDePruebaFuncionalidad2"></class>
+            <class name="testSuite.CasosDePruebaFuncionalidadN"></class>
+
+        </classes>
+
+    </test>
+
+</suite>
