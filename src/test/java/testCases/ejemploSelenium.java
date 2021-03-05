@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ejemploSelenium {
     public static void main(String[] args) throws InterruptedException {
-        String path = Paths.get(System.getProperty("user.dir"),"/src/main/resources/drivers/chromedriver").toString();
+        String path = Paths.get(System.getProperty("user.dir"),"/src/main/resources/driver/chromedriver").toString();
         //String path = "/Users/ignaciofuentes/Desktop/SeleniumPrimerosPasos/src/main/resources/drivers/chromedriver";
         System.setProperty("webdriver.chrome.driver", path);
 

@@ -6,7 +6,8 @@ public class DriverContext {
 
     private static DriverManager driverManager  = new DriverManager();
 
-//    public static void setUp(String nombreDispositivo, String sistemaOperativo, String rutaApp, String udID, Boolean emulador){
+
+    //    public static void setUp(String nombreDispositivo, String sistemaOperativo, String rutaApp, String udID, Boolean emulador){
 //        driverManager.setUp(nombreDispositivo,sistemaOperativo,rutaApp,udID, emulador);
 //    }
     public static void setUp(String[] args) throws InterruptedException {
@@ -23,7 +24,7 @@ public class DriverContext {
 
     public static void quitDriver(){
 
-        driver.close();
+        driverManager.driver.close();
 
     }
 }
